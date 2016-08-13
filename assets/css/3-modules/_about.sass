@@ -4,27 +4,26 @@ section
   float: none
   padding: 20px 20px
 
-
 .about-lockup
-  max-width: 860px
+  // max-width: 960px
   +display(flex)
   margin: 0 auto
-  +align-items(center)
-  +justify-content(space-around)
+  // +align-items(center)
+  +justify-content(flex-left)
 
   .face
-    +size(200px 220px)
+    +size(220px 220px)
     background: url(/assets/img/bio-photo.png)
     background-size: cover
     order: 1
 
   .about-txt
-    +size(600px auto)
+    +size(760px auto)
     order: 2
     text-align: left
+    margin-left: 20px
     h3
-      margin-left: -20px
-      padding-top: 10
+      padding-top: 0px
       @extend %small-bold
       text-align: left
 
