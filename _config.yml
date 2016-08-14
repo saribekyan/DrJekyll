@@ -7,8 +7,9 @@ permalink: pretty
 
 favicon: "/assets/img/eternity.png"
 
-port: 3000
-url: http://localhost:3000
+# port: 3000
+# url: http://localhost:3000
+url: https://saribekyan.github.io
 
 sass:
   sass_dir: assets/css
